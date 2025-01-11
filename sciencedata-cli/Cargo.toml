@@ -1,0 +1,8 @@
+[package]
+name = "sciencedata-cli"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.26"
+tokio = "1.43.0"

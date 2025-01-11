@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+
+members = [ 
+    "sciencedata-lib",
+    "sciencedata-api",
+    "sciencedata-cli"
+]
+
+[profile.release]
+lto = true
